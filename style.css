@@ -245,3 +245,13 @@ a.whatsapp-btn {
   font-size: 18px;
   margin-top: 15px;
 }
+a.whatsapp-btn {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 15px;
+}
