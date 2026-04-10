@@ -222,17 +222,16 @@ a[href^="mailto"] {
 }
 .whatsapp-btn {
   display: inline-block;
-  background-color: #dfe8e2;
-  color: #2f4f4f;
+  background-color: #25D366;   /* WhatsApp green */
+  color: white;
   padding: 14px 22px;
   border-radius: 12px;
   text-decoration: none;
   font-size: 18px;
-  margin-top: 12px;
-  transition: all 0.2s ease;
+  margin-top: 15px;
+  font-weight: 500;
 }
 
 .whatsapp-btn:hover {
-  background-color: #cfdcd4;
-  transform: translateY(-1px);
+  background-color: #1ebe5d;
 }
