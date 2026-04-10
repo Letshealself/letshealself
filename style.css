@@ -196,33 +196,26 @@ a[href^="mailto"] {
 @media (max-width: 600px) {
 
   body {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
 
   h2 {
-    font-size: 22px;
+    font-size: 26px;
+    margin-top: 30px;
   }
 
   p {
-    font-size: 17px;
-    line-height: 1.6;
+    font-size: 19px;
+    line-height: 1.8;
   }
 
-  .menu a {
-    display: block;
-    padding: 14px;
-    font-size: 18px;
+  .section {
+    margin-bottom: 35px;
   }
 
-}
-.container > * {
-  margin-bottom: 24px;
-}
-.section {
-  margin-bottom: 30px;
 }
