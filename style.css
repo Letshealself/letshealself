@@ -219,3 +219,6 @@ a[href^="mailto"] {
   }
 
 }
+.container > * {
+  margin-bottom: 24px;
+}
