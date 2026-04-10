@@ -219,39 +219,24 @@ a[href^="mailto"] {
     margin-bottom: 35px;
   }
 
-}
 .whatsapp-btn {
-  display: inline-block;
-  background-color: #25D366;   /* WhatsApp green */
+  display: block;
+  width: fit-content;
+  margin: 25px auto;
+  background-color: #25D366;
   color: white;
-  padding: 14px 22px;
-  border-radius: 12px;
+  padding: 16px 26px;
+  border-radius: 14px;
   text-decoration: none;
   font-size: 18px;
-  margin-top: 15px;
   font-weight: 500;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
 }
 
 .whatsapp-btn:hover {
   background-color: #1ebe5d;
+  transform: translateY(-2px);
 }
-a.whatsapp-btn {
-  display: inline-block;
-  background-color: #25D366;
-  color: white;
-  padding: 14px 22px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  margin-top: 15px;
-}
-a.whatsapp-btn {
-  display: inline-block;
-  background-color: #25D366;
-  color: white;
-  padding: 14px 22px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  margin-top: 15px;
-}
+
+  
