@@ -200,8 +200,9 @@ a[href^="mailto"] {
   }
 
   h1 {
-    font-size: 26px;
-  }
+  font-size: 32px;
+  margin-bottom: 20px;
+}
 
   h2 {
     font-size: 22px;
