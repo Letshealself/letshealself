@@ -11,7 +11,7 @@ body {
 
 
 .container {
-  max-width: 700px;
+  max-width: 600px;
   margin: 30px auto;
   line-height: 1.7;
   background-color: #f7f9f7;
@@ -239,4 +239,25 @@ a[href^="mailto"] {
   transform: translateY(-2px);
 }
 
-  
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}  
