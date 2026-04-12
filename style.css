@@ -390,3 +390,13 @@ img {
   body {
   line-height: 1.6;
 }
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu a {
+  white-space: nowrap;
+}
