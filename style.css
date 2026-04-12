@@ -308,3 +308,21 @@ img {
 .menu li {
   display: inline;
 }
+/* ===== MENU FIX (FINAL) ===== */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #3e5f5a;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
