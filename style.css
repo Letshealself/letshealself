@@ -326,3 +326,13 @@ img {
 .menu a:hover {
   text-decoration: underline;
 }
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  font-size: 16px;
+}
