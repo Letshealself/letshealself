@@ -350,3 +350,43 @@ img {
   color: #3e5f5a;
   font-size: 14px;
 }
+/* ===== SPACING SYSTEM ===== */
+
+/* Page breathing */
+.container {
+  padding: 20px;
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: 40px;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Menu spacing */
+.menu {
+  margin-bottom: 25px;
+}
+
+/* Image spacing */
+img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+  body {
+  line-height: 1.6;
+}
