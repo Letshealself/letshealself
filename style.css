@@ -336,3 +336,17 @@ img {
 .menu a {
   font-size: 16px;
 }
+/* FINAL MENU - CLEAN & TIGHT */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #3e5f5a;
+  font-size: 14px;
+}
