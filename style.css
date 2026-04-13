@@ -410,3 +410,28 @@ img {
     border-radius: 8px;
     font-size: 16px;
 }
+.button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 14px 28px;
+    background-color: #6b8f8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* smoother text spacing */
+.section p {
+    line-height: 1.6;
+}
+
+/* optional hover effect (feels premium) */
+.button:hover {
+    background-color: #5a7a7a;
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
