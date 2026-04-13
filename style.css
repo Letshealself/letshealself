@@ -400,3 +400,13 @@ img {
 .menu a {
   font-size: 16px;
 }
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #6b8f8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
