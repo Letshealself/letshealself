@@ -438,3 +438,7 @@ img {
     transform: translateY(-2px);
     transition: 0.3s ease;
 }
+.section {
+    text-align: left;
+    margin-top: 20px;
+}
