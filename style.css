@@ -11,8 +11,8 @@ body {
 
 
 .container {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 800px;
+  margin: 40px auto;
   line-height: 1.7;
   background-color: #f7f9f7;
   padding: 20px 15px 40px;
@@ -38,7 +38,11 @@ body {
     margin: 0;
     color: #2f4f4f;
 }
-
+/* Menu */
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
 /* Menu */
 .menu {
     margin: 18px 0;
