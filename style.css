@@ -265,7 +265,7 @@ li {
   margin-bottom: 10px;
 }  
   .section {
-  margin-bottom: 45px;
+  margin-bottom: 35px auto;
 }
   .section p {
   margin-bottom: 15px;
