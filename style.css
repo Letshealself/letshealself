@@ -439,6 +439,15 @@ img {
     transition: 0.3s ease;
 }
 .section {
+    margin-top: 25px;
+}
+
+.section p,
+.section h1,
+.section h2,
+.section h3 {
     text-align: left;
-    margin-top: 20px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
 }
