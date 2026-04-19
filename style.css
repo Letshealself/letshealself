@@ -149,3 +149,10 @@ img.logo {
     margin: 30px auto;
     border-radius: 16px;
 }
+.section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 18px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
