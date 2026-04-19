@@ -263,3 +263,6 @@ body {
 .section a:hover{
 color: #1f4d3a;
 }
+.section a {
+  text-decoration: underline !important;
+}
