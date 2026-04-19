@@ -266,3 +266,11 @@ color: #1f4d3a;
 .section a {
   text-decoration: underline !important;
 }
+.section a {
+  text-decoration: underline !important;
+  color: #2f5d50;
+}
+
+.section a:hover {
+  color: #1f4d3a;
+}
