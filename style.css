@@ -1,71 +1,118 @@
+/* Reset */
 body {
     margin: 0;
     font-family: Georgia, serif;
-    background-color: #f4f7f5;
+    background: linear-gradient(to bottom, #eef3ef, #e4ece6);
     color: #333;
+    font-size: 18px;
 }
 
+/* Container (main content cards) */
 .container {
     max-width: 800px;
-    margin: auto;
-    padding: 20px;
+    margin: 40px auto;
+    background-color: #f7f9f7;
+    padding: 30px 40px;
+    border-radius: 18px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
+    line-height: 1.7;
 }
 
-.header {
+/* Header */
+header {
     text-align: center;
     margin-top: 30px;
 }
 
-.logo {
+/* Logo */
+header img {
     width: 40px;
-    display: block;
-    margin: 0 auto 10px;
-}
-
-h1 {
-    font-size: 42px;
-    color: #2f5d50;
     margin-bottom: 10px;
 }
 
-.menu {
-    text-align: center;
-    margin: 20px 0;
+/* Title */
+h1 {
+    color: #1f4d43; /* deeper sage */
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-.menu a {
-    margin: 0 15px;
+/* Section headings */
+h2 {
+    color: #1f4d43;
+    margin-top: 20px;
+}
+
+/* Navigation menu */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 12px;
     text-decoration: none;
     color: #2f5d50;
-    font-size: 18px;
+    font-weight: 500;
 }
 
-.menu a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
-.section {
-    background: #ffffff;
-    padding: 30px;
-    margin: 40px 0;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-h2 {
-    font-size: 26px;
-    color: #2f5d50;
-}
-
+/* Paragraph spacing */
 p {
-    line-height: 1.8;
+    margin-bottom: 15px;
 }
 
+/* Section spacing */
+section {
+    margin-top: 30px;
+}
+
+/* Cards (mobile + desktop soft blocks) */
+.card {
+    background-color: #f7f9f7;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+}
+
+/* Links */
 a {
     color: #2f5d50;
-    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+/* Profile image (important fix) */
+.profile-img {
+    max-width: 400px;
+    display: block;
+    margin: 40px auto;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px 10px;
+    }
 }
