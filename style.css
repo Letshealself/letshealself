@@ -111,7 +111,16 @@ img {
         margin: 20px;
         padding: 20px;
     }
-
+.logo {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    
+}
+img.logo {
+    max-width: 60px;
+}
     h1 {
         font-size: 30px;
     }
