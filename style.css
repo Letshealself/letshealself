@@ -561,3 +561,111 @@ p {
 .menu a {
     margin: 0 15px;
 }
+/* Reset some default spacing */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4f7f5; /* soft sage background */
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 40px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    font-size: 42px;
+    color: #2f5d50;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2f5d50;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Section Cards */
+.section {
+    background: #ffffff;
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h2 {
+    font-size: 26px;
+    color: #2f5d50;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #2f5d50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons (optional future use) */
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #2f5d50;
+    color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    .section {
+        padding: 20px;
+        margin: 25px 10px;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 10px;
+    }
+}
