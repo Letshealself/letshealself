@@ -248,4 +248,7 @@ a:hover {
 }
 /* FORCE FINAL COLORS */
 
-
+body {
+  background-color: #eef2ef;
+  color: #2f3e34;
+}
