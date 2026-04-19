@@ -156,3 +156,55 @@ img.logo {
     border-radius: 18px;
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
 }
+/* ===== FINAL DESIGN FIX (ALIGNMENT + BOX + IMAGE + COLOR) ===== */
+
+/* Header & Menu Center */
+.header {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    color: #1f4d3a;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #145c43;
+}
+
+/* Section Boxes */
+.section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 18px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Book Image */
+.bookcover {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 16px;
+}
+
+/* Text Colors */
+body {
+    color: #2f2f2f;
+}
+
+h1, h2 {
+    color: #1f4d3a;
+}
+
+.section h2 {
+    color: #1f4d3a;
+}
