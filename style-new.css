@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Georgia, serif;
     background-color: #eef3ef;
-    color: #333;
+    color: #2f3e34;
     font-size: 18px;
 }
 
@@ -128,6 +128,7 @@ img.logo {
     nav a {
         display: inline-block;
         margin: 8px 10px;
+        border-radius: 16px
     }
 }
 /* FORCE FIX LOGO */
@@ -137,10 +138,12 @@ img {
 }
 
 img.logo {
-    width: 60px !important;
-    max-width: 60px !important;
+    width: 60px;
+    max-width: 60px;
     display: block;
     margin: 0 auto 10px;
+    border-radius:0; /*
+    important */
 }
 .bookcover {
     max-width: 320px;
