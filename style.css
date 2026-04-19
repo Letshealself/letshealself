@@ -130,3 +130,15 @@ img.logo {
         margin: 8px 10px;
     }
 }
+/* FORCE FIX LOGO */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.logo {
+    width: 60px !important;
+    max-width: 60px !important;
+    display: block;
+    margin: 0 auto 10px;
+}
