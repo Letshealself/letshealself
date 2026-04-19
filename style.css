@@ -208,3 +208,16 @@ h1, h2 {
 .section h2 {
     color: #1f4d3a;
 }
+/* ===== FORCE COLOR OVERRIDE ===== */
+
+h1, h2 {
+    color: #1b4332 !important;
+}
+
+.menu a {
+    color: #1b4332 !important;
+}
+
+.menu a:hover {
+    color: #0f3d2e !important;
+}
