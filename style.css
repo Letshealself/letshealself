@@ -250,3 +250,21 @@ a:hover {
 .menu a:hover {
     color: #1f3a2e;
 }
+/* FORCE FINAL COLORS */
+
+body {
+    background-color: #eef2ef !important;
+    color: #2f3e34 !important;
+}
+
+h1, h2, h3 {
+    color: #1f3a2e !important;
+}
+
+a {
+    color: #2e5a47 !important;
+}
+
+.menu a {
+    color: #2e5a47 !important;
+}
