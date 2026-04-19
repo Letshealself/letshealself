@@ -252,3 +252,14 @@ body {
   background-color: #eef2ef;
   color: #2f3e34;
 }
+.menu a {
+  text-decoration: none;
+}
+
+.section a {
+  text-decoration: underline;
+    color: #2f5d50;
+}
+.section a:hover{
+color: #1f4d3a;
+}
