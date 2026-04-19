@@ -245,18 +245,4 @@ a:hover {
 }
 /* FORCE FINAL COLORS */
 
-body {
-    background-color: red!important;
-}
 
-h1, h2, h3 {
-    color: #1f3a2e !important;
-}
-
-a {
-    color: #2e5a47 !important;
-}
-
-.menu a {
-    color: #2e5a47 !important;
-}
