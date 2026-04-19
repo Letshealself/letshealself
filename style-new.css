@@ -1,10 +1,9 @@
-body {
-    background-color: red !important;
-}
+
 /* Reset */
 body {
     margin: 0;
     font-family: Georgia, serif;
+    background-color: red !important;
     color: #333;
     font-size: 18px;
 }
