@@ -455,3 +455,56 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+/* ===== VISUAL UPGRADE (SOFT, CALM DESIGN) ===== */
+
+/* Page background */
+body {
+    background-color: #f6f8f6;
+}
+
+/* Main content container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Section card feel */
+.section {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #2f5d50;
+}
+
+/* Improve paragraph readability */
+p {
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Blog links */
+a {
+    color: #2f5d50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add spacing between blog links */
+.section p {
+    margin-bottom: 12px;
+}
+
+/* Subtle divider */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
