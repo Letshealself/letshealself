@@ -197,9 +197,6 @@ img.logo {
 }
 
 /* Text Colors */
-body {
-    color: #2f2f2f;
-}
 
 h1, h2 {
     color: #1f4d3a;
@@ -223,10 +220,6 @@ h1, h2 {
 }
 /* Stronger sage theme */
 
-body {
-    background-color: #eef2ef;
-    color: #2f3e34;
-}
 
 h1, h2, h3 {
     color: #1f3a2e;
@@ -253,8 +246,7 @@ a:hover {
 /* FORCE FINAL COLORS */
 
 body {
-    background-color: #eef2ef !important;
-    color: #2f3e34 !important;
+    background-color: red!important;
 }
 
 h1, h2, h3 {
