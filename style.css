@@ -221,3 +221,32 @@ h1, h2 {
 .menu a:hover {
     color: #0f3d2e !important;
 }
+/* Stronger sage theme */
+
+body {
+    background-color: #eef2ef;
+    color: #2f3e34;
+}
+
+h1, h2, h3 {
+    color: #1f3a2e;
+}
+
+a {
+    color: #2e5a47;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #1f3a2e;
+}
+
+.menu a {
+    margin: 0 10px;
+    color: #2e5a47;
+}
+
+.menu a:hover {
+    color: #1f3a2e;
+}
