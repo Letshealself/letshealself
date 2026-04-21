@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+html {
+    font-size: 100%;
+}
+
+   
 /* Reset */
 body {
     margin: 0;
@@ -8,6 +13,7 @@ body {
     background-color: #eef3ef;
     color: #2f3e34;
     font-size: 18px;
+   -webkit-text-size-adjust: 100%;
 }
 /* Fix horizontal scroll */
 html, body {
@@ -336,5 +342,12 @@ color: #1f4d3a;
 
     p {
         font-size: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 18px;
+        max-width: 100%;
     }
 }
