@@ -45,15 +45,15 @@ header img {
 /* Title */
 h1 {
     color: #1f4d43; /* deeper sage */
-    font-size: 26px;
-    margin-bottom: 15px;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 /* Section headings */
 h2 {
-  font size: 22px;
+  font size: 24px;
     color: #1f4d43;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Navigation menu */
@@ -74,7 +74,8 @@ nav a:hover {
 
 /* Paragraph spacing */
 p {
-    margin-bottom: 15px;
+  font-size: 17px;  
+  margin-bottom: 15px;
 }
 
 /* Section spacing */
@@ -87,7 +88,7 @@ section {
     background-color: #f7f9f7;
     padding: 25px;
     border-radius: 18px;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
     margin-bottom: 25px;
 }
 
@@ -172,7 +173,8 @@ img.logo {
 
 /* Header & Menu Center */
 .header {
-    text-align: center;
+  margin-bottom: 25px;  
+  text-align: center;
 }
 
 .menu {
@@ -180,7 +182,8 @@ img.logo {
 }
 
 .menu a {
-    margin: 0 10px;
+  font-size: 16px;  
+  margin: 0 10px;
     color: #1f4d3a;
     font-weight: 500;
     text-decoration: none;
@@ -193,8 +196,8 @@ img.logo {
 /* Section Boxes */
 .section {
     background-color: #ffffff;
-    padding: 25px;
-    margin: 25px 0;
+    padding: 20px;
+    margin: 30px 0;
     border-radius: 18px;
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
 }
