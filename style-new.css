@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 /* Reset */
 body {
     margin: 0;
@@ -297,4 +300,11 @@ color: #1f4d3a;
     font-size: 20px;
   }
 
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+  }
 }
