@@ -6,7 +6,10 @@ body {
     color: #2f3e34;
     font-size: 18px;
 }
-
+/* Fix horizontal scroll */
+html, body {
+  overflow-x: hidden;
+}
 /* Container (main content cards) */
 .container {
     max-width: 800px;
@@ -19,11 +22,11 @@ body {
 }
 
 /* Header */
-header {
+.header {
     text-align: center;
     margin-top: 30px;
 }
-header img {
+.header img {
     width: 50px;
     height: auto;
     display: block;
@@ -95,6 +98,7 @@ a:hover {
 /* Image styling */
 img {
     max-width: 100%;
+    height auto;
     border-radius: 16px;
 }
 
