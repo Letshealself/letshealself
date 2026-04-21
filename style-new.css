@@ -45,14 +45,15 @@ header img {
 /* Title */
 h1 {
     color: #1f4d43; /* deeper sage */
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 26px;
+    margin-bottom: 15px;
 }
 
 /* Section headings */
 h2 {
+  font size: 22px;
     color: #1f4d43;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* Navigation menu */
