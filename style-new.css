@@ -16,8 +16,8 @@ html, body {
 /* Container (main content cards) */
 .container {
     width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 100%;   /* ← change this */
+    margin: 0;         /* ← remove auto centering */
     padding: 20px;
     background-color: #f7f9f7;
     border-radius: 18px;
