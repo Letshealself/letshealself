@@ -16,19 +16,16 @@ body {
    -webkit-text-size-adjust: 100%;
 }
 /* Fix horizontal scroll */
-html, body {
-  overflow-x: hidden;
-}
+
 /* Container (main content cards) */
 .container {
     width: 100%;
-    max-width: 600px;   /* ← THIS is the sweet spot */
+    max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 16px;
     background-color: #f7f9f7;
     border-radius: 18px;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
-    line-height: 1.7;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.06);
 }
 
 /* Header */
@@ -347,7 +344,6 @@ color: #1f4d3a;
 @media (max-width: 600px) {
     .container {
         margin: 10px;
-        padding: 18px;
-        max-width: 100%;
+        padding: 14px;
     }
 }
