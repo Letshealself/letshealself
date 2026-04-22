@@ -1,3 +1,19 @@
+.menu {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.menu a {
+  margin: 0 12px;
+  text-decoration: none;   /* removes underline */
+  font-size: 16px;
+  color: #2f4f4f;
+}
+
+.menu a:hover {
+  text-decoration: underline; /* optional hover effect */
+}
+
 /* ===== RESET ===== */
 * {
   box-sizing: border-box;
@@ -7,16 +23,22 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background: linear-gradient(to bottom, #eef3ef, #e4ece6);
-  color: #344e41;
-  font-size: 17px;
-  line-height: 1.8;
+  background: #e8efe9;   /* cleaner, softer than gradient */
+  color: #333;           /* more consistent text color */
+  font-size: 16px;       /* unified size */
+  line-height: 1.6;      /* cleaner spacing */
 }
-
+a {
+font-size: 16px;
+color: #2f4f4f;
+}
+a:hover {
+  text-decoration: underline;
+}
 /* ===== CONTAINER ===== */
 .container {
   width: 100%;
-  max-width: 680px;   /* KEY FIX */
+  max-width: 720px;   /* KEY FIX */
   margin: 0 auto;
   padding: 16px;
   overflow-x: hidden;
@@ -81,10 +103,10 @@ body {
   margin: 20px 0;
   border-radius: 14px;
 }
-.section-box {
-  background-color: #eef3ef; /* light sage */
-  padding: 25px;
-  border-radius: 12px;
+.section {
+  background-color: #f3f7f4;
+  padding: 20px;
+  border-radius: 10px;
   margin-bottom: 25px;
 }
 /* ===== HEADINGS ===== */
@@ -94,7 +116,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 10px:
   margin-bottom: 10px;
   color: #1b4332;
@@ -138,9 +160,11 @@ img {
 }
 
 .profile-img {
-  max-width: 100%;
+  width: 220px;
+  max-width: 80%;
+  border-radius: 12px;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto 15px auto;
 }
 
 /* ===== LISTS ===== */
