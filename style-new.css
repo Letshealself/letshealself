@@ -13,10 +13,8 @@ body {
     background-color: #eef3ef;
     color: #2f3e34;
     font-size: 18px;
-   -webkit-text-size-adjust: 100%;
-  body {
+    -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
-}
 }
 /* Fix horizontal scroll */
 
@@ -55,7 +53,7 @@ h1 {
 
 /* Section headings */
 h2 {
-  font size: 24px;
+  font-size: 24px;
     color: #1f4d43;
     margin-bottom: 15px;
 }
@@ -85,12 +83,13 @@ p {
 /* Section spacing */
 section {
     margin-top: 20px;
+}
   .section {
     background-color: #f7f9f7;
     border-radius: 16px;
     padding: 16px;
 }
-}
+
 
 /* Cards (mobile + desktop soft blocks) */
 .card {
@@ -113,7 +112,7 @@ a:hover {
 /* Image styling */
 img {
     max-width: 100%;
-    height auto;
+    height: auto;
     border-radius: 16px;
 }
 
@@ -349,10 +348,10 @@ color: #1f4d3a;
 }
 @media (max-width: 600px) {
     .container {
-      width: 100%
-      max-width: 100%
+      width: 100%;
+      max-width: 100%;
         margin: 10px;
-      border-radius: 0
+      border-radius: 0;
         padding: 16px;
     }
 }
