@@ -23,8 +23,8 @@ body {
 /* Container (main content cards) */
 .container {
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 20px auto;
     padding: 16px;
     background-color: #f7f9f7;
     border-radius: 18px;
