@@ -19,7 +19,9 @@ body {
   max-width: 680px;   /* KEY FIX */
   margin: 0 auto;
   padding: 16px;
+  overflow-x: hidden;
 }
+
 .hero {
   text-align: center;
   margin-bottom: 30px;
@@ -73,8 +75,11 @@ body {
 }
 
 /* cleaner pattern */
-.section:nth-of-type(even) {
-  background-color: transparent;
+.section {
+  background-color: #e9f1ec;   /* soft darker sage */
+  padding: 18px;
+  margin: 20px 0;
+  border-radius: 14px;
 }
 
 /* ===== HEADINGS ===== */
@@ -88,8 +93,9 @@ h2 {
   margin-top: 10px:
   margin-bottom: 10px;
   color: #1b4332;
+  font-weight: 600;
 }
-p {
+.section p {
   margin-bottom: 12px;
 }
 h3 {
@@ -103,7 +109,9 @@ p {
   margin-bottom: 14px;
   line-height: 1.8;
 }
-
+p, a, li {
+  overflow-wrap: break-word;
+}
 /* ===== LINKS ===== */
 a {
   color: #2d6a4f;
@@ -117,11 +125,11 @@ a:hover {
 /* ===== IMAGES ===== */
 img {
   width: 100%;
-  max-width: 420px;   /* THIS fixes huge image */
+  max-width: 320px;   /* smaller, elegant */
   height: auto;
-  border-radius: 12px;
   display: block;
-  margin: 20px auto;  /* centers image */
+  margin: 25px auto;
+  border-radius: 12px;
 }
 
 .profile-img {
