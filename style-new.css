@@ -23,8 +23,6 @@ body {
 /* Container (main content cards) */
 .container {
     width: 100%;
-    max-width: 1000px;
-    margin: 20px auto;
     padding: 16px;
     background-color: #f7f9f7;
     border-radius: 18px;
@@ -86,7 +84,12 @@ p {
 
 /* Section spacing */
 section {
-    margin-top: 30px;
+    margin-top: 20px;
+  .section {
+    background-color: #f7f9f7;
+    border-radius: 16px;
+    padding: 16px;
+}
 }
 
 /* Cards (mobile + desktop soft blocks) */
