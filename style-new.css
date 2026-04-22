@@ -158,3 +158,17 @@ footer {
   }
 
 }
+.hero {
+  text-align: center;
+  padding: 50px 20px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #555;
+}
