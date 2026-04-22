@@ -8,8 +8,8 @@ body {
   font-family: Georgia, serif;
   background-color: #eef3ef;
   color: #2f3e34;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 /* CONTAINER */
@@ -46,19 +46,19 @@ body {
 /* SECTIONS */
 .section {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 24px;
   margin: 20px 0;
   border-radius: 16px;
 }
 
 /* TEXT */
 h1 {
-  font-size: 26px;
+  font-size: 32px;
   margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 26px;
   margin-bottom: 10px;
 }
 
