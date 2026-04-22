@@ -295,3 +295,12 @@ p, a, li {
   display: block;
   margin: 0 auto 10px;
 }
+img.logo {
+  width: 60px !important;
+  max-width: none !important;
+}
+
+img.profile-img {
+  width: 220px !important;
+  max-width: none !important;
+}
