@@ -281,3 +281,9 @@ nav a.active {
 p, a, li {
   overflow-wrap: break-word;
 }
+.logo {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
