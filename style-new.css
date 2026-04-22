@@ -1,11 +1,14 @@
 .menu {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;   /* 🔥 add this */
+  gap: 30px;             /* better spacing */
   margin: 20px 0;
 }
 
 .menu a {
+  .menu a {
+display: inline-block;   /* 🔥 fix alignment */
   margin: 0 12px;
   text-decoration: none;   /* removes underline */
   font-size: 16px;
@@ -33,6 +36,15 @@ body {
   color: #344e41;           /* more consistent text color */
   font-size: 17px;       /* unified size */
   line-height: 1.8;      /* cleaner spacing */
+}
+  p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+  li {
+  font-size: 17px;
+  line-height: 1.7;
 }
 a {
 font-size: 16px;
