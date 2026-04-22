@@ -14,6 +14,9 @@ body {
     color: #2f3e34;
     font-size: 18px;
    -webkit-text-size-adjust: 100%;
+  body {
+    overflow-wrap: break-word;
+}
 }
 /* Fix horizontal scroll */
 
@@ -21,7 +24,7 @@ body {
 .container {
     width: 100%;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 16px;
     background-color: #f7f9f7;
     border-radius: 18px;
@@ -343,7 +346,14 @@ color: #1f4d3a;
 }
 @media (max-width: 600px) {
     .container {
-        margin: 10px;
+      max-width: 100%
+        margin: 0;
         padding: 14px;
     }
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   /* VERY IMPORTANT */
+    gap: 10px;
 }
