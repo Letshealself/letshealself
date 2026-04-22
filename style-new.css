@@ -191,3 +191,51 @@ footer {
   }
 
 }
+/* ===== FIX LAYOUT ===== */
+
+/* Center whole page */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Fix big image */
+.hero img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Section boxes */
+.section-box {
+  background-color: #e4ebe6;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+/* Navigation styling */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2f4f3f;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  border-bottom: 2px solid #2f4f3f;
+  padding-bottom: 2px;
+}
+
+/* Fix text cutting */
+p, a, li {
+  overflow-wrap: break-word;
+}
