@@ -81,7 +81,12 @@ body {
   margin: 20px 0;
   border-radius: 14px;
 }
-
+.section-box {
+  background-color: #eef3ef; /* light sage */
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
 /* ===== HEADINGS ===== */
 h1 {
   font-size: 28px;
