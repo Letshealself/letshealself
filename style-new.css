@@ -20,10 +20,9 @@ body {
   padding: 16px;
 }
 
-/* ===== HERO ===== */
-.hero {
+/* ===== HEADER ===== */
+.header {
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* ===== LOGO ===== */
@@ -31,6 +30,12 @@ body {
   width: 60px;
   display: block;
   margin: 0 auto 10px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* ===== MENU ===== */
@@ -47,12 +52,16 @@ body {
   color: #2f4f4f;
 }
 
-/* ===== SECTIONS ===== */
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* ===== SECTION BOX (MAIN DESIGN) ===== */
 .section-box {
-  background-color: #d6e2db;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 25px;
+  background-color: #e4ebe6;
+  padding: 22px;
+  border-radius: 14px;
+  margin-bottom: 22px;
 }
 
 /* ===== TEXT ===== */
@@ -65,9 +74,11 @@ li {
   font-size: 17px;
 }
 
+/* ===== HEADINGS ===== */
 h1 {
   font-size: 28px;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 h2 {
@@ -80,6 +91,11 @@ h2 {
 a {
   text-decoration: none;
   color: #2f4f4f;
+}
+
+/* underline links only inside content boxes */
+.section-box a {
+  text-decoration: underline;
 }
 
 /* ===== IMAGES ===== */
@@ -127,20 +143,8 @@ footer {
   .container {
     padding: 14px;
   }
-}
-.section-box a {
-  text-decoration: underline;
-}
-.header {
-  text-align: center !important;
-}
 
-h1 {
-  text-align: center;
-}
-.section-box {
-  background-color: #e4ebe6;
-  padding: 22px;
-  border-radius: 14px;
-  margin-bottom: 22px;
+  .menu {
+    gap: 15px;
+  }
 }
