@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background: #edf3ef;
+  background: #dde7e1;
   color: #344e41;
   font-size: 17px;
   line-height: 1.7;
@@ -49,7 +49,7 @@ body {
 
 /* ===== SECTIONS ===== */
 .section-box {
-  background-color: #e4ebe6;
+  background-color: #d6e2db;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
