@@ -138,3 +138,9 @@ footer {
 h1 {
   text-align: center;
 }
+.section-box {
+  background-color: #e4ebe6;
+  padding: 22px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+}
