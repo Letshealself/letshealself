@@ -131,3 +131,10 @@ footer {
 .section-box a {
   text-decoration: underline;
 }
+.header {
+  text-align: center !important;
+}
+
+h1 {
+  text-align: center;
+}
