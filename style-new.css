@@ -30,6 +30,7 @@ body {
   width: 60px;
   display: block;
   margin: 0 auto 10px;
+  border-radius: 50%;
 }
 
 /* ===== HERO ===== */
